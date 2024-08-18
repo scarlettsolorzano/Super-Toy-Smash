@@ -1,0 +1,25 @@
+* {
+    font-family: NotoSans;
+}
+
+.div-header {
+    width: 98%;
+    height: 100px;
+    padding: 1%;
+    margin-bottom: 50px;
+    background-color: aqua;
+}
+
+.div-main {
+    width: 98%;
+    padding: 1%;
+    background-color: salmon;
+}
+
+.div-footer {
+    width: 98%;
+    padding: 1%;
+    position: fixed;
+    bottom: 0;
+    background-color: burlywood;
+}
