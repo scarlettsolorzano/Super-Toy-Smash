@@ -1,0 +1,19 @@
+/* 
+    Desktop 
+*/
+.cr-message {
+    padding: 8px 0;
+    text-align: center;
+    font-family: LilitOne;
+    font-size: 14px;
+    color:rgb(125, 125, 125);
+    background-color: white;
+}
+
+
+/* 
+    Mobile 
+*/
+@media only screen and (max-width: 768px) {
+
+}
