@@ -1,0 +1,53 @@
+.title-toys{
+    text-align: center;
+    font-size: 40px;
+}
+section.toys-section .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 430%; 
+    height: 400px;
+}
+
+section.toys-section .sliding-cards {
+    width: 80%;
+}
+
+section.toys-section .card-list {
+    display: flex;
+    transition: transform 0.3s ease-in-out; /* Transición suave para el desplazamiento del carrusel */
+}
+
+section.toys-section .card-item {
+    padding: 20px;
+    margin: 10px;
+    min-width: 200px; /* Ancho mínimo de la tarjeta */
+    max-width: 200px; /* Ancho máximo de la tarjeta */
+    text-align: center; /* Centra el texto y contenido de la tarjeta */
+    box-shadow: none; /* Elimina cualquier sombra */
+    background-color: transparent; /* Hace el fondo transparente */
+    border-radius: 0; /* Elimina el borde redondeado */
+}
+
+section.toys-section .user-image {
+    width: 100px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 50%; /* Mantiene la imagen circular */
+
+}
+
+section.toys-section .user-name {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
+}
+
+section.toys-section .price {
+    font-size: 1.5rem;
+    color: #399119;
+    margin-bottom: 6px;
+}
+section.toys-section .size-toy {
+    font-size: 0.7rem;
+    margin-bottom: 6px;
+}
