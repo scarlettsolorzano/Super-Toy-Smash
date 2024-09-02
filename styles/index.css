@@ -1,12 +1,15 @@
 * {
     font-family: NotoSans;
+    background-color: rgb(232, 59, 59);
 }
 
 .div-header {
     width: 98%;
     padding: 1%;
+    top: 0px;
+    position: sticky;
     margin-bottom: 50px;
-    background-color: rgb(232, 59, 59);
+    background-color:white;
 }
 
 .div-main {
